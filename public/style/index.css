@@ -1,0 +1,30 @@
+.container
+{
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    /* border: 1px solid grey; */
+    padding: 5%;
+}
+.crud
+{
+    height: 30px;
+    width: 120px;
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+}
+.crud:hover
+{
+    border: 1px solid blueviolet;
+    background-color: rgb(158, 158, 247);
+    color: whitesmoke;
+}
